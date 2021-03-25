@@ -1,0 +1,17 @@
+{
+  "apiVersion": "tanka.dev/v1alpha1",
+  "kind": "Environment",
+  "metadata": {
+    "labels": {
+      "app": "rudderstack",
+      "cluster_name": "dev-us-central-0",
+      "team": "grafana_com"
+    },
+    "name": "rudderstack"
+  },
+  "spec": {
+    "apiServer": "https://127.0.0.1:6443",
+    "injectLabels": true,
+    "namespace": "rudderstack"
+  }
+}
